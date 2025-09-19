@@ -16,6 +16,7 @@ import {
   figma,
   docker,
   pizzeria,
+  oil,
   threejs,
 } from '../assets';
 
@@ -154,8 +155,7 @@ const testimonials = [
 const projects = [
   {
     name: 'Пиццерия',
-    description:
-      'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+    description: 'Пиццерия для заказа пицц онлайн',
     tags: [
       {
         name: 'react',
@@ -173,27 +173,27 @@ const projects = [
     image: pizzeria,
     source_code_link: 'https://github.com/movetron/pizzeria',
   },
-  //   {
-  //     name: 'Job IT',
-  //     description:
-  //       'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
-  //     tags: [
-  //       {
-  //         name: 'react',
-  //         color: 'blue-text-gradient',
-  //       },
-  //       {
-  //         name: 'restapi',
-  //         color: 'green-text-gradient',
-  //       },
-  //       {
-  //         name: 'scss',
-  //         color: 'pink-text-gradient',
-  //       },
-  //     ],
-  //     image: jobit,
-  //     source_code_link: 'https://github.com/',
-  //   },
+  {
+    name: 'Анализ двигаталей с помощью ИИ',
+    description:
+      'На основе данных приложение проводит анализ с помощью ИИ на Python и указывает на ошибки работы двигателя по показателям.',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'typescript',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'tailwindcss',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: oil,
+    source_code_link: 'https://github.com/movetron/Engine-analysis',
+  },
   //   {
   //     name: 'Trip Guide',
   //     description:

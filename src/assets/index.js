@@ -22,6 +22,7 @@ import typescript from './tech/typescript.png';
 import threejs from './tech/threejs.svg';
 
 import pizzeria from './pizzeria.png';
+import oil from './oil.jpg';
 
 export {
   logo,
@@ -46,4 +47,5 @@ export {
   typescript,
   threejs,
   pizzeria,
+  oil,
 };
